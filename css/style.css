@@ -1,0 +1,940 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+body{
+	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font-weight: 300;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #fff;
+	background: #000;
+}
+
+a{
+	color: #0066ff;
+	text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+
+/* ヘッダー
+------------------------------------------------------------*/
+#header{
+	position: relative;
+    overflow:hidden;
+    width:100%;
+    height:568px;
+}
+
+#header img{
+    position:absolute;
+    left:50%;
+    width:1280px;
+    height:568px;
+    margin-left:-640px;
+}
+
+#slogan{
+	position: absolute;
+  top: 50%;
+	width: 100%;
+	-webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+	color: #000;
+	line-height: 1.2;
+	text-align: center;
+}
+
+#slogan h1{
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 20px;
+	font-weight:normal;
+}
+
+#slogan h2{
+	font-size: 20px;
+	font-weight:normal;
+}
+
+#block{
+	position: absolute;
+	top: 25%;
+	margin-left: 10%;
+	background: #777;
+	width: 270px;
+	height: 270px;
+	color: #000;
+	text-align: center;
+}
+
+#block h2{
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+#block .h2_sch{
+	font-size: 40px;
+}
+
+
+/* フッター
+------------------------------------------------------------*/
+#footer{
+	clear: both;
+	padding: 50px 10px 50px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/* 共通
+------------------------------------------------------------*/
+h1, h2{
+	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+section{clear:both;}
+
+section h1{
+	font-size: 30px;
+	font-weight:normal;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+section h2{
+	font-size: 22px;
+	font-weight:normal;
+	text-align: center;
+}
+
+
+.inner{
+	width: 94%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.col2 li{
+	display: inline-block;
+	width: 100%;
+  	margin: 20px 0 20px 0;
+}
+
+
+/* SEC01 VISION
+------------------------------------------------------------*/
+
+.vision{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+/* FOR COLUMN
+------------------------------------------------------------*/
+
+.column{
+	background-color: #333;
+	color: #fff;
+	border: solid;
+	border-color: pink;
+}
+
+.column a{
+	color: skyblue;
+}
+
+.column a:hover{
+	opacity: 0.7;
+}
+
+.column h2{
+	text-align: left;
+	margin: 0 0 0 20%;
+	padding: 20px 0 0 0;
+	color: pink;
+	font-family: Monotype Corsiva;
+}
+
+/* SEC02 GROUND
+------------------------------------------------------------*/
+.wrap{
+	clear: both;
+	width: 100%;
+	background: #2b2b2b;
+}
+
+.bg{
+	line-height: 0;
+}
+
+.txt h2{
+	padding: 0 0 20px !important;
+}
+
+/* SEC03 BOX
+------------------------------------------------------------*/
+.col3 li{
+	margin-bottom: 50px;
+}
+
+.col3 img{
+	max-width: 288px;
+	display: block;
+	margin: -5px auto 20px;
+	border-radius: 50%;
+}
+
+.col3 li>a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+/* SEC04 活動
+------------------------------------------------------------*/
+#sec04{
+	background: url(../images/hp-4.jpg) no-repeat 100% 100% fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+}
+
+
+/* SEC05 ACCESS
+------------------------------------------------------------*/
+#sec05{
+	padding-top: 50px;
+}
+
+#sec05 dl{
+	line-height: 1.2;
+}
+
+#sec05 dt{
+	clear: left;
+	float: left;
+	display: block;
+	width: 30%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	text-align: right;
+	line-height: 1.6em;
+}
+
+#sec05 dd{
+	width: 60%;
+	float: left;
+	text-align: left;
+	margin-bottom: 15px;
+	line-height: 1.6em;
+}
+
+#sec05 header{
+	display: none;
+}
+
+#map{
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+
+#map iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	border: 0;
+}
+
+/* SEC06 DECITION
+------------------------------------------------------------*/
+
+#sec06 h1{
+	color: inherit;
+	background: #333;
+	cursor: pointer;
+}
+
+#sec06 table{
+	border-collapse: collapse;
+	margin: 50px auto 100px;
+	background: #777;
+	color: #000;
+	font-weight: bold;
+}
+
+#sec06 td{
+	border: solid 1px;
+	padding: 0.7em;
+	width: 27%;
+}
+
+#sec06 th{
+	border: solid 1px;
+	padding: 0.5em;
+	font-weight: normal;
+	background: #ddd;
+	color: #000;
+	width: 27%;
+}
+
+#arrow{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: red transparent transparent transparent;
+	float: left;
+}
+
+#sec06 .close{
+	border-color: transparent transparent red transparent !important;
+}
+
+#sec06 a{
+	color: #009;
+}
+
+/* SEC07 INTRODUCTION
+------------------------------------------------------------*/
+
+#sec07 h1{
+	color: inherit;
+	background: #333;
+	cursor: pointer;
+}
+
+#sec07 .close{
+	border-color: transparent transparent red transparent !important;
+}
+
+#sec07 table{
+	border-collapse: collapse;
+	margin:50px auto 100px;
+	width: 90%;
+	color: #000;
+	font-weight: bold;
+}
+
+#sec07 td{
+	padding: 0.7em;
+	margin: 0;
+}
+
+#sec07 .pos{
+	background: #930;
+	border-right: solid 1px;
+}
+
+#sec07 .grade0,.grade1,.grade2,.grade3,.grade4{
+	border-right: solid 1px;
+	color: #bbb;
+}
+
+#sec07 .grade0{
+	background: navy;
+}
+
+#sec07 .grade1{
+	background: maroon;
+}
+
+#sec07 .grade2{
+	background: teal;
+}
+
+#sec07 .grade3{
+	background: purple;
+}
+
+#sec07 .grade4{
+	background: green;
+}
+
+#sec07 tr{
+	display: inline-block;
+	border: solid 1px;
+	background: #777;
+}
+
+#sec07 a{
+	color: inherit;
+}
+
+#sec07 a:hover{
+	opacity: 0.7;
+}
+
+#sec06 .introduction_all a{
+	color: inherit;
+}
+
+#sec06 .introduction_all a:hover{
+	opacity: 0.7;
+}
+
+/* SEC08 MEMBER
+------------------------------------------------------------*/
+
+#sec08 td,th{
+	border: solid 1px;
+}
+
+#sec08 .position{
+	text-align: left;
+}
+
+#sec08 .member_number{
+	border-color: #fff;
+}
+
+#sec08 .member_name,.member_number{
+	font-weight: bold;
+	background: #383;
+	border-color: #fff;
+}
+
+#sec08 .member_detail th{
+	text-align: center;
+	font-weight: normal;
+	width: 40%;
+	background: #7aa;
+}
+
+#sec08 .member_detail td{
+	text-align: left;
+}
+
+#sec08 table{
+	border: solid 1px;
+	width: 100%;
+	text-align: center;
+	background: #ddd;
+	color: #000;
+}
+
+/* SEC09 SCHEDULE
+------------------------------------------------------------*/
+
+#sec09 iframe{
+	display: block;
+}
+
+
+
+/* RESPONSIVE 設定
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+	.inner{
+		width: 1024px;
+		padding-bottom: 120px;
+	}
+	section h2{
+		padding: 70px 0 20px;
+	}
+	.txt h2{
+		padding: 0 0 20px !important;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	body{
+		font-size:14px;
+	}
+
+  a#menu{
+		display:none;
+	}
+
+	.panel{
+		display:block !important;
+	}
+
+	#mainnav{
+		position:fixed;
+		top: 0;
+		width:100%;
+		z-index:500;
+	}
+
+	#mainnav h1{
+		font-family: HG行書体;
+		font-size: 33px;
+		padding-left: 30px;
+		padding-top: 8px;
+		color: #000;
+		float: left;
+	}
+
+	#mainnav ul{
+		text-align: right;
+		padding-right: 30px;
+	}
+
+	#mainnav li{
+		display: inline-block;
+		padding: 45px 10px 20px;
+		font-size: 14px;
+		font-weight: 300;
+	}
+
+  #mainnav a{
+		color: #000;
+	}
+
+	#mainnav.changeNav{
+		background: rgba(255,255,255,.9);
+		border-bottom: 1px solid #d1d1d1;
+	}
+
+	#mainnav.changeNav li{
+		padding: 20px 10px;
+	}
+
+	/* SEC02 GROUND
+	-----------------*/
+	.txt, .bg{
+		width: 50%;
+		float: left;
+		display: table;
+	background: #2b2b2b;
+	}
+
+	#sec02_02 .txt, #sec02_02 .bg{
+		float: right;
+	}
+
+	.vMid{
+		display: table-cell;
+		padding: 0 100px;
+		vertical-align: middle;
+	}
+
+	/* SEC03 BOX
+	-----------------*/
+	.col3{
+		text-align: center;
+	}
+
+	.col3 li{
+		display: inline-block;
+		width: 30%;
+		padding: 0 1.5%;
+		margin-bottom: 0;
+		vertical-align: top;
+		text-align: left;
+	}
+
+	.box1:hover{
+		background: #333;
+	}
+
+	.box2:hover{
+		background: #333;
+	}
+
+	.box3:hover{
+		background: #333;
+		color: inherit;
+	}
+
+	/* SEC05 ACCESS
+	-----------------*/
+	#sec05{
+		padding-top: 120px;
+	}
+
+  #footer{
+		padding: 30px 10px 70px 0;
+	}
+
+	/* SEC06 DECITION
+	-----------------*/
+
+	#sec06{
+		margin-top: 100px;
+	}
+
+	#sec06 h1{
+		font-size: 30px;
+		margin:30px 50px;
+	}
+
+	#arrow{
+		border-width: 10px;
+		margin: 25px 80px;
+	}
+
+	#sec06 .close{
+		margin: 15px 80px !important;
+	}
+
+
+	/* SEC07 INTRODUCTION
+	-----------------*/
+
+	#sec07{
+		margin-top: 100px;
+	}
+
+	#sec07 td{
+		font-size: 15px;
+	}
+
+	#sec07 tr{
+		width: 18%;
+	}
+
+	#sec07 h1{
+		font-size: 30px;
+		margin:30px 50px;
+	}
+
+	#sec07 .close{
+		margin: 15px 80px !important;
+	}
+
+	#sec07 p{
+		font-size: 16px;
+		margin-left: 50px;
+	}
+
+	/* SEC08 MEMBER
+	-----------------*/
+
+	#sec08 div{
+		width: 80%;
+		margin: 100px auto;
+	}
+
+	#sec08 .member_image{
+		width: 40%;
+		margin-left: 10%;
+		padding: 30px;
+	}
+
+	#sec08 td,th{
+		font-size: 18px;
+	}
+
+	#sec08 p{
+		font-size: 14px;
+	}
+
+	#sec08 .position{
+		font-size: 16px;
+		padding-left: 50px;
+	}
+
+	#sec08 .member_number{
+		width: 15% !important;
+	}
+
+	#sec08 .member_name,.member_number{
+		font-size: 32px !important;
+	}
+
+	#sec08 .member_detail th{
+		width: 40%;
+	}
+
+	#sec08 .member_detail td{
+		padding-left: 50px;
+	}
+
+	/* SEC09 SCHEDULE
+	-----------------*/
+
+	#sec09 iframe{
+		height: 500px;
+		width: 80%;
+		margin: 100px auto;
+	}
+
+}
+
+@media only screen and (min-width: 641px){
+	.col2 li{
+		width: 40%;
+		padding: 0 3%;
+		vertical-align: top;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	#map iframe{
+	  width: 96% !important;
+		left: 2%;
+	}
+}
+
+@media only screen and (max-width: 799px){
+	#slogan h1{
+		font-size: 31px;
+	}
+
+	#slogan h2{
+		font-size: 16px;
+	}
+
+  a#menu{
+  	display: inline-block;
+  	position: relative;
+  	width: 40px;
+  	height: 40px;
+  	margin: 10px;
+	}
+
+	#menuBtn{
+  	display: block;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	width: 18px;
+  	height: 2px;
+  	margin: -1px 0 0 -7px;
+  	background: #fff;
+  	transition: .2s;
+	}
+
+	#menuBtn:before, #menuBtn:after{
+  	display: block;
+  	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 0;
+  	width: 18px;
+  	height: 2px;
+  	background: #fff;
+  	transition: .3s;
+	}
+
+	#menuBtn:before{
+  	margin-top: -7px;
+	}
+
+	#menuBtn:after{
+  	margin-top: 5px;
+	}
+
+	a#menu .close{
+  	background: transparent;
+	}
+
+	a#menu .close:before, a#menu .close:after{
+  	margin-top: 0;
+	}
+
+	a#menu .close:before{
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+	}
+
+	a#menu .close:after{
+  	transform: rotate(-135deg);
+	}
+
+	.panel{
+		width: 100%;
+		display: none;
+		overflow: hidden;
+		position: relative;
+		left: 0;
+		top: 0;
+		z-index: 100;
+	}
+
+	#mainnav{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		text-align: right;
+		z-index:500;
+	}
+
+	#mainnav h1{
+		font-family: HG行書体;
+		color: #000;
+	}
+
+	#mainnav ul{
+		border-bottom: 1px solid #ccc;
+		background: #fff;
+		text-align: left;
+	}
+
+	#mainnav li a{
+		position: relative;
+		display:block;
+		padding:15px 25px;
+		border-bottom: 1px solid #ccc;
+		color: #000;
+		font-weight: 400;
+	}
+
+	#mainnav li a:before{
+		display: block;
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		width: 6px;
+		height: 6px;
+		margin: -4px 0 0 0;
+		border-top: solid 2px #000;
+		border-right: solid 2px #000;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.col3 li{
+		margin: 0 auto;
+		display: block;
+	max-width: 288px;
+	}
+
+	#sec06 h1{
+		font-size: 20px;
+		margin: 10px 30px;
+	}
+
+	#arrow{
+		border-width: 5px;
+		margin: 15px 0 0 40px;
+	}
+
+	#sec06{
+		margin-top: 50px;
+	}
+
+	#sec06 .close{
+		margin: 10px 0 0 40px !important;
+	}
+
+	#sec06 th{
+		font-size: 10px;
+	}
+
+	#sec06 td{
+		font-size: 10px;
+	}
+
+	#sec06 table{
+		margin: 0 5px;
+	}
+
+	#sec07{
+		margin-top: 50px;
+	}
+
+	#sec07 td{
+		font-size: 10px;
+	}
+
+	#sec07 tr{
+		width: 47%;
+	}
+
+	#sec07 h1{
+		font-size: 20px;
+		margin: 10px 30px;
+	}
+
+	#sec07 .close{
+		margin: 10px 0 0 40px !important;
+	}
+
+	#sec07 p{
+		font-size: 10px;
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+
+	#sec08 div{
+		width: 100%;
+		margin: 50px auto 50px;
+	}
+
+	#sec08 .member_image{
+		width: 37%;
+		padding: 5px;
+	}
+
+	#sec08 td,th{
+		font-size: 12px;
+	}
+
+	#sec08 p{
+		font-size: 10px;
+	}
+
+	#sec08 .position{
+		font-size: 10px;
+		padding-left: 15px;
+	}
+
+	#sec08 .member_number{
+		width: 10%;
+	}
+
+	#sec08 .member_name,.member_number{
+		font-size: 16px;
+	}
+
+	#sec08 .member_detail td{
+		padding-left: 10px;
+	}
+
+	#sec08 .member_detail th{
+		width: 37%;
+	}
+
+	#sec09 iframe{
+		width: 100%;
+		height: 500px;
+		margin: 50px auto;
+	}
+
+}
+
+@media only screen and (max-width: 1199px){
+	section h2{
+		padding: 50px 0 20px 0;
+	}
+	#sec01 h2{
+		padding: 70px 0 20px;
+	}
+	.vMid{
+		padding: 0 20px;
+	}
+}
